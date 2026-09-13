@@ -28,7 +28,7 @@ document.querySelector('#app').innerHTML = `
           <div style="padding: 20px 15px;">
 <div class="details-section" style="padding-top: 20px;">
             <div style="text-align: center; margin-bottom: 30px;">
-              <h3 style="font-family: 'Great Vibes', cursive; font-size: 2.5rem; color: #d4af37; margin-bottom: 15px;">Reception</h3>
+              <h3 style="font-family: 'Great Vibes', cursive; font-size: 2.5rem; color: #d4af37; margin-bottom: 15px;">Reception Invitation</h3>
               
               <div style="font-size: 1.2rem; font-weight: 600; letter-spacing: 3px; color: #4a3b40;">NOVEMBER</div>
               
