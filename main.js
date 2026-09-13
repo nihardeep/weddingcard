@@ -38,7 +38,7 @@ document.querySelector('#app').innerHTML = `
                 </div>
                 <div style="font-size: 4.5rem; font-weight: 300; color: #7a6374; line-height: 1; font-family: 'Outfit', sans-serif;">27</div>
                 <div style="text-align: center; border-top: 2px solid #d4af37; border-bottom: 2px solid #d4af37; padding: 8px 0; min-width: 110px;">
-                  <span style="font-size: 1.1rem; font-weight: 600; letter-spacing: 2px; color: #4a3b40;">AT 07:00 PM</span>
+                  <span style="font-size: 1.1rem; font-weight: 600; letter-spacing: 2px; color: #4a3b40;">4 TO 10 PM</span>
                 </div>
               </div>
               
