@@ -1,0 +1,82 @@
+.bubu-dudu-animation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  z-index: 2;
+}
+
+.avatar-container {
+  position: relative;
+  overflow: visible;
+}
+
+.dudu, .bubu {
+  position: absolute;
+  opacity: 0;
+}
+
+.dudu { left: -60px; }
+.bubu { right: -60px; }
+
+.kiss-heart {
+  position: absolute;
+  font-size: 2rem;
+  top: -10px;
+  opacity: 0;
+}
+
+.final-photo {
+  opacity: 0;
+}
+
+.scene.open .dudu {
+  animation: walkRight 2s ease-in-out 1s forwards;
+}
+
+.scene.open .bubu {
+  animation: walkLeft 2s ease-in-out 1s forwards;
+}
+
+.scene.open .kiss-heart {
+  animation: popHeart 1s ease-in-out 3s forwards;
+}
+
+.scene.open .final-photo {
+  animation: revealPhoto 1s ease-in-out 4.5s forwards;
+}
+
+.scene.open .bubu-dudu-animation {
+  animation: hideAnimation 0.5s ease-in-out 4.5s forwards;
+}
+
+@keyframes walkRight {
+  0% { left: -60px; opacity: 0; transform: scaleX(-1); }
+  10% { opacity: 1; transform: scaleX(-1); }
+  100% { left: 10px; opacity: 1; transform: scaleX(-1); }
+}
+
+@keyframes walkLeft {
+  0% { right: -60px; opacity: 0; }
+  10% { opacity: 1; }
+  100% { right: 10px; opacity: 1; }
+}
+
+@keyframes popHeart {
+  0% { opacity: 0; transform: scale(0.5) translateY(0); }
+  50% { opacity: 1; transform: scale(1.2) translateY(-20px); }
+  100% { opacity: 1; transform: scale(1) translateY(-20px); }
+}
+
+@keyframes hideAnimation {
+  to { opacity: 0; visibility: hidden; }
+}
+
+@keyframes revealPhoto {
+  to { opacity: 1; }
+}
