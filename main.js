@@ -32,13 +32,13 @@ document.querySelector('#app').innerHTML = `
               
               <div style="font-size: 1.2rem; font-weight: 600; letter-spacing: 3px; color: #4a3b40;">NOVEMBER</div>
               
-              <div style="display: flex; align-items: center; justify-content: center; gap: 20px; margin: 15px 0;">
-                <div style="text-align: center; border-top: 2px solid #d4af37; border-bottom: 2px solid #d4af37; padding: 8px 0; min-width: 110px;">
-                  <span style="font-size: 1.1rem; font-weight: 600; letter-spacing: 2px; color: #4a3b40;">FRIDAY</span>
+              <div style="display: flex; align-items: center; justify-content: center; gap: clamp(5px, 2vw, 20px); margin: 15px 0; width: 100%;">
+                <div style="flex: 1; text-align: center; border-top: 2px solid #d4af37; border-bottom: 2px solid #d4af37; padding: 8px 0;">
+                  <span style="font-size: clamp(0.75rem, 3vw, 1.1rem); font-weight: 600; letter-spacing: 1px; color: #4a3b40; white-space: nowrap;">FRIDAY</span>
                 </div>
-                <div style="font-size: 4.5rem; font-weight: 300; color: #7a6374; line-height: 1; font-family: 'Outfit', sans-serif;">27</div>
-                <div style="text-align: center; border-top: 2px solid #d4af37; border-bottom: 2px solid #d4af37; padding: 8px 0; min-width: 110px;">
-                  <span style="font-size: 1.1rem; font-weight: 600; letter-spacing: 2px; color: #4a3b40;">4 TO 10 PM</span>
+                <div style="font-size: clamp(3rem, 10vw, 4.5rem); font-weight: 300; color: #7a6374; line-height: 1; font-family: 'Outfit', sans-serif; padding: 0 10px;">27</div>
+                <div style="flex: 1; text-align: center; border-top: 2px solid #d4af37; border-bottom: 2px solid #d4af37; padding: 8px 0;">
+                  <span style="font-size: clamp(0.75rem, 3vw, 1.1rem); font-weight: 600; letter-spacing: 1px; color: #4a3b40; white-space: nowrap;">4 TO 10 PM</span>
                 </div>
               </div>
               
