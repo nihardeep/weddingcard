@@ -30,7 +30,7 @@ document.querySelector('#app').innerHTML = `
                 <p class="date">25th Nov</p>
                 <p class="venue">Ratnamouli Palace</p>
                 <p class="venue-address">Dr. Bhabendra Nath Saikia Road, Beltola Chariali, Guwahati, Assam 781028</p>
-                <a href="https://www.google.com/travel/hotels/s/zPoeEA7M9RPPGX299" target="_blank" class="map-link">Google Maps <span class="arrow">➔</span></a>
+                <a href="https://share.google/dc12VGcu3DaWarolT" target="_blank" class="map-link">Google Maps <span class="arrow">➔</span></a>
               </div>
             </div>
             
